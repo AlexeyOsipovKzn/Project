@@ -1,1 +1,4 @@
-﻿Console.WriteLine("Print username");
+﻿Console.WriteLine("Print UserName ");
+string username = Console.ReadLine();
+Console.WriteLine("Hi, ");
+Console.WriteLine(username);
