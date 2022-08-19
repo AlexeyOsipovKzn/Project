@@ -1,0 +1,16 @@
+using System;
+
+class Program {
+    static void Main() {
+    Console.Clear();
+      Console.WriteLine("Введите число N");
+      int n = int.Parse(Console.ReadLine());
+      if(n < 0) n = -n;
+      for(int i = 1; i <= n; i++)
+      {
+        Console.Write($" --> {i*i*i}");
+      }
+    
+  
+    }
+}
